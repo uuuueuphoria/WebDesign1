@@ -1,0 +1,98 @@
+/* base styles for font */
+/*fonts -system ui font stack*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size:100%;
+  font-weight:400;
+  line-height:1.25;
+}
+/* Shipping calculator */
+/* 4rem for top-buttom, auto for left-right in the center */
+ 
+/* site nav */
+.site-nav{
+  box-shadow: 0 0 5px 0 grey;
+  justify-content: space-between;
+  align-items: center;;
+  display:flex;
+  padding:0.25rem 1rem;
+}
+.site-nav img{
+  width:1.25rem;
+}
+
+.site-nav h1{
+
+}
+
+.site-nav button{
+  border:none;
+  background:transparent;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background:rgb(99,71,255);
+  padding: 0.25rem 0.5rem;
+  border-radius:5px;
+  color:white;
+}
+.shipping-calculator{
+  width:320px;
+  margin:4rem auto;
+}
+
+.shipping-calculator header{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.shipping-calculator header img{
+  width:8rem;
+}
+
+.shipping-calculator header h2{
+  font-size:2rem;
+  font-weight: 700;
+  color:rgb(35,37,44);
+}
+
+.shipping-calculator header p{
+  font-size:1rem;
+  font-weight: 700;
+  color:rgb(142,133,132);
+}
+
+/* Control */
+.control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control label{
+  color:white;
+  margin:0;
+  padding:0.25rem 1rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  display: block;
+  height:28px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background:rgb(99,71,255);
+}
+
+.control input{
+  margin:0;
+  padding:0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  display: block;
+  height:28px;
+  border:none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.1); 
+}
+/* 
+ *
+************************    PAGE BANNER STYLES      ************************ 
+ *
+*/
