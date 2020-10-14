@@ -1,2 +1,2 @@
 # WebDesign1
-## project and homework for web design 1
+## some webdesign project and homework including simple design and layout as well as responsive web design
