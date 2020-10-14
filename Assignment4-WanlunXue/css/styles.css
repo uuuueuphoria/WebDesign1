@@ -1,0 +1,587 @@
+body {
+  background-color: white;
+}
+main {
+  margin-bottom: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  font-size: 100%;
+  line-height: 1.5;
+}
+.bar {
+  width: 880px;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  height: 100px;
+  background-color: #4f6864;
+}
+header img {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+header h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-right: 525px;
+}
+header a {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  text-decoration: none;
+  margin-right: 20px;
+}
+header .navigation {
+  margin-top: 25px;
+}
+header a:hover {
+  text-decoration: underline;
+}
+main .we-know-everything-succs {
+  height: 600px;
+  background-image: url(../img/header-image.jpg);
+}
+
+main .we-know-everything-succs h1 {
+  font-size: 60px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  width: 465px;
+  text-align: left;
+  padding-top: 85px;
+  padding-left: 40px;
+  padding-bottom: 35px;
+  line-height: 1;
+}
+
+main .we-know-everything-succs p {
+  font-size: 30px;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 450px;
+  text-align: left;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  font-weight: lighter;
+}
+
+main .we-know-everything-succs a {
+  font-size: 36px;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 465px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-radius: 10px;
+  font-weight: lighter;
+  text-decoration: none;
+  background-color: #4f6864;
+  margin-left: 40px;
+}
+
+main .we-know-everything-succs a:hover {
+  text-decoration: underline;
+}
+
+main .image-about-us {
+  width: 400px;
+  height: 450px;
+  margin-top: 100px;
+  background-image: url(../img/about-us-image.jpg);
+}
+
+main .about-us {
+  margin-top: 50px;
+  width: 520px;
+  height: 450px;
+  margin-left: 40px;
+}
+
+.about-us h2 {
+  font-size: 72px;
+  font-family: "Playfair Display", serif;
+  color: black;
+  text-align: center;
+}
+
+.about-us p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.about-us p.tiny-text {
+  font-size: 14px;
+}
+main .starting-with-succulents {
+  height: 200px;
+  background-image: url(../img/start-with-succulents.jpg);
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.white-box {
+  padding-top: 70px;
+  padding-left: 210px;
+  padding-right: 210px;
+  padding-bottom: 65px;
+}
+.starting-with-succulents h2 {
+  font-size: 48px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  background-color: white;
+}
+main .image {
+  width: 480px;
+  height: 500px;
+}
+main .text {
+  width: 480px;
+  background-color: #0e1c1c;
+}
+
+main .top-left {
+  background-image: url(../img/left-top-image.jpg);
+}
+
+main .bottom-right {
+  background-image: url(../img/right-bottom-image.jpg);
+}
+
+.text h2 {
+  font-size: 36px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+  margin-left: 35px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.text p {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 35px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.2;
+  color: white;
+}
+
+.text a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  margin-left: 35px;
+  margin-top: 65px;
+}
+.left-corner a {
+  display: block;
+  margin-top: 85px;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+footer .logo {
+  width: 150px;
+  height: 140px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.logo img {
+  margin-left: 25px;
+}
+.logo h2 {
+  font-size: 24px;
+  font-weight: lighter;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+footer .flex nav {
+  width: 280px;
+  height: 285px;
+  margin-left: 20px;
+}
+
+footer .contact {
+  width: 280px;
+  height: 285px;
+  margin-left: 20px;
+}
+footer .flex {
+  margin-bottom: 100px;
+}
+footer .flex nav:first-of-type {
+  margin-left: 40px;
+}
+
+footer h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 35px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+footer .contact p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 35px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+li {
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 1.3;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer .copyright {
+  height: 100px;
+  margin-bottom: 35px;
+}
+
+footer .copyright p {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+footer {
+  margin-top: 60px;
+}
+
+main .Cute-Cacti,
+.ello-Echeveria {
+  height: 200px;
+  margin-bottom: 150px;
+}
+.Cute-Cacti {
+  background-image: url(../img/cactus.jpg);
+}
+.ello-Echeveria {
+  background-image: url(../img/echeveria.jpg);
+  display: block;
+}
+.Your-cart {
+  background-image: url(../img/cart-banner.jpg);
+  height: 200px;
+}
+.white-box-echeveria {
+  padding-top: 70px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 65px;
+}
+
+.white-box-cactus {
+  padding-top: 70px;
+  padding-left: 355px;
+  padding-right: 355px;
+  padding-bottom: 65px;
+}
+.Cute-Cacti h2,
+.ello-Echeveria h2,
+.Your-cart h2 {
+  font-size: 48px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  background-color: white;
+}
+.bread-crumb {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bread-crumb a {
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+  color: rgb(126, 170, 161);
+  text-decoration: none;
+}
+
+.bread-crumb a:hover {
+  text-decoration: underline;
+}
+
+.ello-Echeveria p,
+.Cute-Cacti p {
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+  line-height: 1.2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  text-align: left;
+}
+
+.Echeveria,
+.Cactus {
+  width: 230px;
+  margin: auto;
+}
+
+.Echeveria h3,
+.Echeveria p,
+.Cactus h3,
+.Cactus p {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.2;
+}
+.Echeveria h3,
+.Cactus h3 {
+  font-weight: lighter;
+  margin-top: 20px;
+}
+.Echeveria p,
+.Cactus p {
+  margin-bottom: 50px;
+}
+.ello-Echeveria.flex {
+  margin-top: 100px;
+}
+
+.white-box-cart {
+  padding-top: 70px;
+  padding-left: 365px;
+  padding-right: 365px;
+  padding-bottom: 65px;
+}
+.quantity,
+.price,
+.remove,
+.picture {
+  width: 155px;
+}
+
+.picture img {
+  margin-top: 50px;
+  width: 155px;
+  margin-left: 10px;
+}
+
+.details {
+  width: 300px;
+  margin-left: 40px;
+}
+.quantity h3,
+.remove h3 {
+  text-align: center;
+}
+.cart p {
+  text-align: left;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.2;
+  font-weight: lighter;
+}
+
+.cart a {
+  display: block;
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.2;
+  font-weight: lighter;
+  margin-bottom: 115px;
+  margin-left: 20px;
+  color: black;
+}
+
+.cart h3 {
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.2;
+  margin-bottom: 35px;
+  margin-top: 50px;
+}
+.price h3 {
+  margin-bottom: 170px;
+}
+
+.subtotal h3 {
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.subtotal a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: lighter;
+  margin-left: 310px;
+  padding: 10px 60px;
+  background-color: rgb(126, 170, 161);
+  border-radius: 10px;
+}
+
+.subtotal a:hover {
+  text-decoration: underline;
+}
+
+.check-out h1 {
+  font-size: 72px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.check-out p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.check-out a {
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+  color: #4f6864;
+  margin-left: 375px;
+}
+.log-in,
+.register {
+  width: 388px;
+  height: 580px;
+  border: 1px solid black;
+  margin-top: 50px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.log-in {
+  background-color: #4f6864;
+}
+.log-in h2,
+.register h2 {
+  font-size: 36px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+
+.register p,
+.log-in p {
+  text-align: left;
+  line-height: 1.2;
+  color: white;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 35px;
+}
+
+.register h2 {
+  color: #4f6864;
+}
+
+.register p {
+  color: black;
+}
+
+.log-in label {
+  color: white;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.log-in #email,
+.log-in #password,
+.register #email-R {
+  width: 375px;
+  height: 45px;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.click {
+  font-size: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+  margin-top: 100px;
+  padding: 10px;
+  background-color: rgb(126, 170, 161);
+  color: white;
+  border-radius: 10px;
+}
+.click:hover {
+  text-decoration: underline;
+}
+
+.register label {
+  color: #4f6864;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.left,
+.right {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.left {
+  margin-right: 10px;
+}
+
+.left input,
+.right input {
+  width: 170px;
+  height: 45px;
+}
+
+.register a {
+  color: rgb(126, 170, 161);
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: left;
+  margin: 0;
+}
+
+.register .click {
+  margin-top: 25px;
+}
+
