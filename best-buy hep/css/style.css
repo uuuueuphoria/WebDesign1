@@ -1,0 +1,25 @@
+html {
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+main > section {
+  display: flex;
+  flex-wrap: wrap;
+}
+h3 {
+  flex-basis: 100%;
+  text-align: center;
+}
+/* gutter spacing is 2.5% */
+section > section {
+  flex-basis: calc((100% - 2.5%) / 2);
+}
+/* (100-2.5*2)/3 */
+section > section:nth-of-type(1),
+section > section:nth-of-type(2),
+section > section:nth-of-type(3) {
+  flex-basis: calc((100% - 5%) / 3);
+}
