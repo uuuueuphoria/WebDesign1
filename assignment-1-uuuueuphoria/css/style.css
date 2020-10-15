@@ -29,15 +29,12 @@ p {
 li {
   list-style: none;
   margin-left: 0;
-}
-header > div {
-  justify-content: left;
+  margin-right: 1rem;
 }
 header nav ul {
-  width: 70%;
   display: flex;
-  justify-content: space-between;
   margin-bottom: 3rem;
+  padding-left: 0;
 }
 header a {
   text-decoration: none;
@@ -45,7 +42,6 @@ header a {
   padding: 0.8rem;
   border: 1px solid grey;
   border-radius: 0.25rem;
-  margin-right: 1rem;
 }
 header a:hover {
   background-color: grey;
@@ -119,9 +115,7 @@ footer nav ul {
   display: flex;
   margin-left: 0;
   padding-left: 0;
-  justify-content: space-between;
   margin-top: 1.5rem;
-  width: 70%;
 }
 footer a {
   color: grey;
@@ -202,9 +196,6 @@ footer a:hover {
   }
   footer nav ul {
     margin-top: 0;
-  }
-  footer li {
-    margin-right: 1rem;
   }
 }
 @media (min-width: 1100px) {
