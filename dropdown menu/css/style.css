@@ -32,7 +32,8 @@ nav a {
   justify-content: center;
   padding: 16px 0;
 }
-nav a:hover svg {
+nav a:hover svg,
+nav a:hover {
   color: limegreen;
 }
 nav a:hover path,
