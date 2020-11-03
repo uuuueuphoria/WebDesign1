@@ -1,0 +1,93 @@
+body {
+  overflow-x: hidden;
+}
+svg {
+  height: 1rem;
+  /* margin-right: 16px; */
+}
+svg:first-of-type {
+  margin-right: 10px;
+}
+svg:last-of-type {
+  margin-left: 10px;
+}
+.menu {
+  text-transform: uppercase;
+  background-color: #191919;
+}
+.menu a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+svg {
+  fill: #f5f5f5;
+}
+nav a {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+}
+nav a:hover svg {
+  color: limegreen;
+}
+nav a:hover path,
+nav a:hover rect {
+  fill: limegreen;
+}
+nav ul ul {
+  /* display: none; */
+  background-color: grey;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  right: -10%;
+  left: 0;
+  top: 100%;
+  transition: all 0.5s ease;
+  z-index: 10;
+  text-align: center;
+}
+/* .dropdown:hover > ul {
+  display: block;
+  color: grey;
+} */
+nav > ul > li {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+nav div:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  nav > ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav > ul > li:first-child {
+    margin-right: 15px;
+  }
+  /* nav ul ul li {
+    text-align: left;
+  } */
+  nav div li {
+    white-space: nowrap;
+  }
+  nav ul ul a {
+    justify-content: flex-start;
+  }
+  nav div:hover > ul {
+    right: auto;
+  }
+  nav ul ul {
+    padding: 0 10px;
+  }
+}
