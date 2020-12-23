@@ -1,0 +1,784 @@
+:root {
+  --gold: #d2be98;
+  --yellow: #f3d900;
+  --poppins: 'Poppins', sans-serif;
+  --navy: #344256;
+  --dk-blue: #1a212b;
+  --grey: #eaedef;
+  --pro: 'Source Sans Pro', sans-serif;
+}
+.hide {
+  display: none;
+}
+body {
+  min-width: 320px;
+  font-family: var(--poppins);
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+
+/* header */
+header {
+  height: 80px;
+  top: 0;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+header svg {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.5rem;
+  fill: var(--gold);
+}
+header i {
+  font-size: 2.4rem;
+  color: black;
+  background-color: var(--gold);
+  border-radius: 50%;
+  padding: 0.8rem;
+}
+header h2 {
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: var(--gold);
+}
+header > div {
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 80px;
+  box-shadow: 0px 3px 3px #eaedef;
+  background-color: white;
+}
+header div {
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+header nav a {
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 1.875rem;
+  font-family: var(--poppins);
+  margin: 1rem;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header nav a:active {
+  text-decoration: underline;
+}
+header ul li {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+header ul li:first-child {
+  border-top: 1px solid #d3d3d3;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+header nav {
+  position: absolute;
+  position: fixed;
+  top: 84px;
+  right: 0;
+  left: 0;
+  background-color: white;
+  z-index: 3;
+}
+
+/* main index */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+main {
+  margin-top: 1rem;
+}
+button > svg {
+  width: 1rem;
+  height: 1rem;
+  fill: white;
+}
+
+form.search label {
+  font-size: 2.25rem;
+  font-weight: bold;
+  font-family: var(--poppins);
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+  flex-basis: 100%;
+}
+form.search div {
+  flex-basis: 100%;
+  align-items: center;
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+form.search {
+  display: flex;
+  flex-wrap: wrap;
+}
+form.search > div > button {
+  margin-left: -10px;
+  height: 2.5rem;
+  width: 3rem;
+  background-color: var(--navy);
+  border-radius: 0px 15px 15px 0;
+}
+form.search > div > button > svg:hover {
+  fill: black;
+}
+form.search > div > button > svg:active {
+  fill: black;
+}
+form.search > div > input {
+  height: 2.5rem;
+  width: 95%;
+  padding: 0 0.5rem;
+  border-radius: 15px 0 0 15px;
+}
+form.search input:focus {
+  outline: 0;
+}
+article.network {
+  height: 100%;
+  background-color: var(--navy);
+  padding-bottom: 2rem;
+}
+div.network {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+h1 {
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 700;
+  padding: 0;
+  line-height: 1.15;
+}
+.banner p {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: var(--pro);
+  line-height: 1.5;
+  padding-bottom: 1.5rem;
+}
+.banner a {
+  text-decoration: none;
+  color: var(--navy);
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: var(--poppins);
+  line-height: 1.5;
+  background-color: var(--gold);
+  border-radius: 10px;
+  margin: 1rem 0;
+  padding: 1rem 1.5rem;
+}
+.banner a > svg {
+  fill: var(--navy);
+}
+.banner a > svg:hover {
+  fill: var(--dk-blue);
+}
+.banner a > svg:active {
+  fill: var(--dk-blue);
+}
+.card section {
+  background-color: white;
+  padding: 2rem 0.8rem 1rem 0.8rem;
+}
+.card section:first-child {
+  border-radius: 10px 10px 0 0;
+}
+.card section:last-child {
+  border-radius: 0 0 10px 10px;
+}
+.card h3 {
+  font-size: 1.25rem;
+  line-height: 2;
+  font-family: var(--pro);
+  font-weight: 700;
+  color: var(--navy);
+}
+.card p {
+  font-family: var(--pro);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--dk-blue);
+  margin-bottom: 2rem;
+}
+.card > section > a:last-child {
+  text-decoration: none;
+  color: var(--navy);
+  font-weight: 700;
+  font-family: var(--pro);
+  line-height: 1.5;
+}
+.card > section > a:last-child:hover {
+  border-bottom: 2px solid var(--gold);
+}
+.card > section > a:last-child:active {
+  border-bottom: 2px solid var(--gold);
+}
+.scroller h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: var(--poppins);
+  color: var(--navy);
+  line-height: 1.15;
+}
+.scroller h3 {
+  font-size: 1rem;
+  color: var(--navy);
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: var(--pro);
+  margin: 0;
+  margin-left: 1rem;
+}
+div.horizontal-content {
+  overflow-x: scroll;
+}
+div.horizontal-content::-webkit-scrollbar {
+  background: transparent;
+}
+div.horizontal-content .row {
+  display: flex;
+  justify-content: space-between;
+}
+div.horizontal-content > div > div {
+  display: flex;
+  align-items: flex-start;
+  flex-basis: 250px;
+  flex-shrink: 0;
+  margin-top: 1rem;
+}
+div.services {
+  background-color: var(--grey);
+}
+.services h2 {
+  font-size: 2.25rem;
+  line-height: 1.15;
+  font-weight: 700;
+  font-family: var(--poppins);
+  color: var(--navy);
+}
+.services p,
+.service p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--pro);
+  line-height: 1.5;
+  color: var(--dk-blue);
+  padding-bottom: 1rem;
+}
+.service img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+.service > div {
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 3px 3px var(--grey);
+  padding: 1.5rem 1rem;
+}
+.service div:last-child {
+  margin-bottom: 4rem;
+}
+.service h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  line-height: 2;
+  font-family: var(--pro);
+  font-weight: 700;
+  color: var(--navy);
+}
+.services a {
+  text-decoration: none;
+  color: var(--navy);
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: var(--poppins);
+  line-height: 1.5;
+  background-color: var(--gold);
+  border-radius: 10px;
+  margin: 1rem 0;
+  padding: 1rem 1.5rem;
+}
+.services a > svg {
+  fill: var(--navy);
+}
+.services a > svg:hover {
+  fill: var(--dk-blue);
+}
+.services a > svg:active {
+  fill: var(--dk-blue);
+}
+article.services {
+  padding-bottom: 4rem;
+}
+div.newsletter {
+  background-color: var(--navy);
+}
+article.newsletter > h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: var(--poppins);
+  color: white;
+  line-height: 1.15;
+}
+article.newsletter > p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: var(--pro);
+}
+form.newsletter label {
+  display: none;
+}
+form.newsletter {
+  display: flex;
+}
+form.newsletter div {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  flex-basis: 100%;
+}
+form.newsletter input {
+  height: 2.5rem;
+  padding: 1rem 0.5rem;
+  border: 2px solid var(--grey);
+  border-radius: 10px 0 0 10px;
+  flex-grow: 1;
+  margin-bottom: 3rem;
+}
+form.newsletter button {
+  border-radius: 0 10px 10px 0;
+  padding: 0.36rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: var(--pro);
+  color: var(--dk-blue);
+  border: 2px solid var(--grey);
+  border-left: 1px solid var(--dk-blue);
+  margin-bottom: 3rem;
+}
+form.newsletter button:hover{
+  color:green;
+}
+
+/* main help */
+.step h1 {
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.15;
+  font-family: var(--poppins);
+}
+.step h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 2;
+  font-family: var(--pro);
+}
+.step p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--pro);
+  line-height: 1.5;
+  color: var(--dk-blue);
+}
+.step section {
+  margin-bottom: 3rem;
+}
+.parallax-image h2 {
+  font-family: var(--poppins);
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.15;
+  font-size: 2.25rem;
+  padding-top: 95px;
+  padding-left: 1.5rem;
+}
+.parallax-image {
+  background-image: url(../img/background/form-bg-sm.webp);
+  height: 220px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top right -200px;
+}
+div.project {
+  background-color: var(--navy);
+}
+form.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+form.project p {
+  color: white;
+  font-family: var(--pro);
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  flex-basis: 100%;
+}
+form.project > div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+form.project > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+
+form.project input,
+form.project label,
+form.project textarea,
+form.project select {
+  flex-basis: 100%;
+}
+span {
+  color: red;
+}
+form.project label {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: var(--pro);
+  margin-bottom: 0.5rem;
+}
+form.project input,
+form.project textarea,
+form.project select {
+  height: 40px;
+  border: 1px solid #c1c4c6;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding: 0 0.5rem;
+}
+form.project textarea {
+  height: 300px;
+  padding: 1rem 0.5rem;
+}
+
+form.project button {
+  border-radius: 10px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: var(--poppins);
+  color: var(--navy);
+  margin-bottom: 3rem;
+  background-color: var(--gold);
+}
+form.project button > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--navy);
+}
+
+form.project button svg:hover {
+  fill: var(--dk-blue);
+}
+form.project button svg:active {
+  fill: var(--dk-blue);
+}
+
+form.project input:required:invalid {
+  border: 1px solid red;
+}
+form.project input:focus {
+  outline: 0;
+  border: none;
+}
+form.project input:required:valid {
+  outline: 0;
+  border: none;
+  background-image: url(../img/icon/checkmark.svg);
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: right 2px center;
+}
+
+select {
+  background-image: url(../img/icon/dropdown.svg);
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: center right 3px;
+  -o-appearance: none;
+  -ms-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* footer */
+
+footer svg {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 0.5rem;
+  fill: var(--gold);
+}
+footer h3 {
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: var(--gold);
+}
+footer h4 {
+  color: var(--navy);
+  font-size: 1.125rem;
+}
+footer a {
+  font-size: 1rem;
+  color: var(--dk-blue);
+  font-family: var(--pro);
+}
+footer li {
+  margin-bottom: 0.8rem;
+}
+footer a:hover {
+  border-bottom: 2px solid var(--yellow);
+}
+footer a:active {
+  border-bottom: 2px solid var(--yellow);
+}
+footer p {
+  font-size: 1rem;
+  line-height: 24px;
+  color: white;
+  font-weight: 400;
+  font-family: var(--pro);
+}
+.copy-right {
+  background-color: var(--navy);
+  padding: 1rem 1.5rem;
+}
+.navigation {
+  padding: 1rem 1.5rem;
+}
+.navigation > div:first-child {
+  display: flex;
+  align-items: center;
+}
+.navigation > div:last-child {
+  margin-bottom: 2rem;
+}
+
+/* media query */
+@media (min-width: 750px) {
+  /* main index*/
+  form.search label {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card section {
+    flex-basis: 48%;
+    border-radius: 10px !important;
+    margin: 1rem 0;
+  }
+  .services h2 {
+    font-size: 3rem;
+  }
+  section.service {
+    display: flex;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  section.service picture,
+  section.service > div {
+    flex-basis: 50%;
+  }
+  section.service img {
+    border-radius: 10px 0 0 10px;
+  }
+  section.service > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 10px 10px 0;
+  }
+  .service h3 {
+    margin-bottom: 0;
+  }
+  .service div:last-child {
+    margin-bottom: 0;
+  }
+  div.horizontal-content > div > div {
+    flex-basis: 300px;
+  }
+
+  /* main help */
+  .step {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .step h1 {
+    flex-basis: 100%;
+    font-size: 3rem;
+  }
+  .step div {
+    flex-basis: 49%;
+  }
+  .parallax-image {
+    height: 240px;
+    background-image: url(../img/background/form-bg-md.webp);
+    background-position: right top 100px;
+  }
+  .parallax-image h2 {
+    font-size: 3rem;
+  }
+  form.project div {
+    flex-basis: 49%;
+  }
+  form.project div:last-child {
+    flex-basis: 100%;
+  }
+
+  /* footer */
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .navigation > div:first-child {
+    flex-basis: 100%;
+  }
+  .navigation > div {
+    flex-basis: 33%;
+  }
+}
+@media (min-width: 1160px) {
+  /* header */
+  header .fa-bars {
+    display: none;
+  }
+  header nav {
+    position: fixed;
+    display: block !important;
+    top: 0;
+    left: 30%;
+    background-color: rgba(22, 22, 22, 0);
+  }
+  header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+  }
+  header nav ul li {
+    border: none !important;
+    padding-bottom: 0;
+  }
+  header nav ul li:first-child {
+    margin: 0;
+    padding: 0;
+  }
+
+  header nav a {
+    font-size: 1.125rem;
+    font-weight: 700;
+    display: block;
+  }
+  /* main index */
+  form.search div {
+    flex-basis: 50%;
+  }
+  div.network {
+    display: flex;
+    justify-content: space-between;
+  }
+  .banner {
+    flex-basis: 33%;
+  }
+  div.card {
+    flex-basis: 66%;
+  }
+  article.services > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  section.service {
+    flex-basis: 32%;
+  }
+  section.service picture,
+  section.service > div {
+    flex-basis: 100%;
+  }
+  section.service:last-child div {
+    margin-top: 0;
+    height: 184px;
+  }
+  section.service > div {
+    justify-content: start;
+    border-radius: 0 0 10px 10px;
+  }
+  section.service img {
+    border-radius: 10px 10px 0 0;
+  }
+  form.newsletter div {
+    flex-basis: 50%;
+  }
+
+  /* main help */
+  .step div {
+    display: flex;
+    flex-basis: 50%;
+  }
+
+  .parallax-image {
+    background-image: url(../img/background/form-bg-lg.webp);
+    background-position: right top 200px;
+  }
+  form.project > div:last-child {
+    flex-basis: 49%;
+  }
+  form.project > div:nth-child(8) {
+    flex-basis: 100%;
+  }
+  form.project > div:nth-child(8) > div {
+    flex-basis: 25%;
+  }
+
+  /* footer */
+  .navigation > div {
+    flex-basis: 25% !important;
+  }
+  .navigation > div:first-child {
+    align-items: flex-start;
+  }
+  .navigation svg {
+    margin-top: 1rem;
+  }
+}
